@@ -1,4 +1,4 @@
-# instagram-fake
+# dio-instagram-fake
 Projeto de aula, tela inicial do instagram
 
 ## Bootcamp Santander Fullstack
