@@ -1,0 +1,17 @@
+body {
+    background-color: #fafafa;
+    color: #262626;
+    min-width: 347px;
+}
+
+main {
+    display: flex;
+    height: 658px;
+}
+
+article {
+    margin: 32px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}

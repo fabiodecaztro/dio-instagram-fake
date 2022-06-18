@@ -1,0 +1,23 @@
+footer {
+    color: #8e8e8e;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+footer a {
+    color: #8e8e8e;
+    padding: 0 8px;
+}
+
+footer div {
+    margin: 5px 0;
+    text-align: center;
+}
+
+footer div:nth-child(3) {
+    justify-content: center;
+    display: flex;
+}

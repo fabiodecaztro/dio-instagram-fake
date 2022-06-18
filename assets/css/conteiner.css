@@ -1,0 +1,114 @@
+.conteiner {
+    align-items: center;
+    display: flex;
+}
+
+.conteiner-left__img {
+    height: 580px;
+    padding-right: 2rem;
+    width: 380px;
+}
+
+.conteiner-right {
+    flex-direction: column;
+    display: flex;
+    height: 80%;
+    justify-content: space-around;
+}
+
+.conteiner-right__login {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: center;
+    width: 347px;
+}
+
+.conteiner-right__logo {
+    width: 175px;
+}
+
+.conteiner-right__img-perfil {
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 10px;
+    width: 102px;
+}
+
+.conteiner-right__botao-continue {
+    background-color: #0095f6;
+    border-radius: 5px;
+    color: #fff;
+    height: 30px;
+    margin: 10px 0;
+    padding: 5px 9px;
+    text-align: center;
+    width: 273px;
+}
+
+.conteiner-right__remover {
+    color: #0095f6;
+}
+
+.conteiner-right__verificacao {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    justify-content: center;
+}
+
+.conteiner-right__verificacao a {
+    color: #0095f6;
+}
+
+.conteiner-right__download {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    justify-content: center;
+}
+
+.conteiner-right__links {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.conteiner-right__link {
+    background-size: cover;
+    height: 45px;
+    width: 150px;
+}
+
+.conteiner-right__link:nth-child(1) {
+    background-image: url('../img/disponivel-no-google-play.png');
+}
+
+.conteiner-right__link:nth-child(2) {
+    background-image: url('../img/baixar-na-app-store.png');
+}
+
+@media screen and (max-width: 875px) {
+    .conteiner-left {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 449px) {
+    .conteiner-right__login {
+        border: transparent;
+    }
+    
+    .conteiner-right__verificacao {
+        border: transparent;
+    }
+}
